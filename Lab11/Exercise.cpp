@@ -25,12 +25,12 @@ int main()
 
     cout << "Searching for key 14..." << endl;
     tempNode = myTree.search(14);
-    if (tempNode != NULL)
+    if (tempNode != nullptr)
     {
         cout << "Key 14 found!" << endl;
         cout << "Its left child has key: ";
         cout << tempNode->left->key_value << endl;
-        cout << "Its left child has key: ";
+        cout << "Its right child has key: ";
         cout << tempNode->right->key_value << endl << endl;
     }
     else
@@ -38,7 +38,7 @@ int main()
 
     cout << "Searching for key 13..." << endl;
     tempNode = myTree.search(13);
-    if (tempNode != NULL)
+    if (tempNode != nullptr)
     {
         cout << "Key 13 found!" << endl << endl;
     }
@@ -47,5 +47,3 @@ int main()
 
     return 1;
 }
-
-
