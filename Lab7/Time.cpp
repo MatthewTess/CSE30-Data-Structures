@@ -1,3 +1,5 @@
+//worked with Angelo for this lab 
+
 #include "Time.h"
 
 Time::Time(){ // default constructor
