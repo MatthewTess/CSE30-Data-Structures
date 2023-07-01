@@ -1,3 +1,5 @@
+//worked with Angelo for timeinput.cpp
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
