@@ -7,8 +7,8 @@ using namespace std;
 struct Node
 {
 	int key_value;	// Key value of the node
-	Node *left;		// Pointer to the left child node
-	Node *right;	// Pointer to the right child node
+	Node *left;		
+	Node *right;	
 };
 
 class BTree
